@@ -1,0 +1,140 @@
+/*presentation and styling*/
+:root {     /*constants*/
+  --green: #00FF00;
+  --white: #ffffff;
+  --black: #000000;
+  --lightBlue: #99CCFF;
+  --darkBlue: #000016;
+  --mediumBlue: #4c66Af;
+  --light: #c6eaff;
+}
+
+* {         /*universal selector that applies to everything (unless something more specific applies)*/
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+
+body {
+  background: var(--bg);
+}
+
+li {
+  list-style: circle;
+}
+
+.dark-theme {
+  --bg: var(--darkBlue);
+  --fontColor: var(--white);
+  --btnBg: var(--lightBlue);
+  --btnFontColor: var(--black);
+  --lining: var(--mediumBlue);
+  --subBg: var(#00001D);
+}
+
+.light-theme {
+  --bg: var(--lightBlue);     /*set variable "bg" = defined "lightBlue"*/
+  --fontColor: var(--black);
+  --btnBg: var(--mediumBlue);
+  --btnFontColor: var(--light);
+  --lining: var(--light);
+  --subBg: var(#00001D);
+}
+
+.btn {
+  border-radius: 7px;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+  height: 30px;
+  margin-top: 5px;
+}
+
+.btn:focus { outline-style: none; } /*removes recangular outline from selected button*/
+
+#theme {
+  width: 90px;
+  float: right;
+  margin-right: 10px;
+}
+
+#projects-btn {
+  width: 80px;
+  float: right;
+  margin-right: 5px;
+}
+
+#hobbies-btn {
+  width: 80px;
+  float: right;
+  margin-right: 5px;
+}
+
+#home-btn {
+  width: 80px;
+  float: right;
+  margin-right: 5px;
+}
+
+#GitHub {
+  width: 190px;
+}
+
+#LinkedIn {
+  width: 190px;
+}
+
+#profile {
+  width:30%;
+  float:right;
+  margin-right: 5%;
+  /*block*/
+  border-style:solid;
+  border-color: var(--lining);
+  border-width: 2px;
+  background-color: var(--subBg);
+  /*end block*/
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.main {
+  width:55%;
+  float:left;
+  margin-left: 10px;
+  /*block*/
+  border-style:solid;
+  border-color: var(--lining);
+  border-width: 2px;
+  background-color: var(--subBg);
+  /*end block*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+#banner {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  /*block*/
+  border-style:solid;
+  border-color: var(--lining);
+  border-width: 2px;
+  background-color: var(--subBg);
+  /*end block*/
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+/*standard block
+  background-color: var(--lining);
+  for profile: padding: 1%;
+*/
+
+/*modern block
+  border-style:solid;
+  border-color: var(--lining);
+  border-width: 1px;
+*/

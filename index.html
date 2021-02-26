@@ -1,0 +1,46 @@
+<!--content and page structure-->
+<!DOCTYPE html>     <!--indicates we're using HTML5-->
+<html lang="en">    <!--language = english-->
+<head>
+  <meta charset="UTF-8">    <!--meta means the user won't see this-->
+  <title>Alex Hazen- Home</title> <!--part that appears on the tab-->
+  <link rel="stylesheet" href="main.css"> <!--links our css file-->
+</head>
+<body class="dark-theme">
+  <div id="banner">
+    <!--<button class="btn" id="theme">Light Theme</button>-->
+    <button class="btn" id="hobbies-btn" onclick="location.href='file:///C:/Users/ahaze/Desktop/Website/hobbies.html';">Hobbies</button>
+    <button class="btn" id="projects-btn" onclick="location.href='file:///C:/Users/ahaze/Desktop/Website/projects.html';">Projects</button>
+    <button class="btn" id="home-btn" onclick="location.href='file:///C:/Users/ahaze/Desktop/Website/index.html';">Home</button>
+  </div>
+  <div class="main">
+    <h1>Alex Hazen</h1>
+    <p>Welcome to my website! I am a recent graduate of the USC Viterbi school of Engineering, with a BS in Computer Science.</p>
+    <div> <!--LinkedIn button-->
+      <button id="LinkedIn" class="btn" onclick="window.open('http://www.linkedin.com/in/alexander-hazen-06703b205/','_blank')">Here is a link to my LinkedIn</button>
+    </div>
+    <div> <!--Github button-->
+      <button id="GitHub" class="btn" onclick="window.open('http://www.github.com/ahazen2013/','_blank')">Here is a link to my GitHub</button>
+    </div>
+    <br>
+    <p>Current tasks:</p><ul>    <!--unordered list w/ items <li>-->
+        <li>Finish bio</li>
+      </li>
+      <br>
+      <li>Edit themes<ul>
+        <li>Finalize colors</li>
+        <li>Pick a font</li>
+        <li>Allow theme to persist across pages</li>
+      </ul>
+      </li>
+      <br>
+      <li>Get a domain</li>
+      <br>
+      <li>Smooth page transitions?</li> <!--https://www.smashingmagazine.com/2016/07/improving-user-flow-through-page-transitions/-->
+    </ul>
+  </div>
+  <img id="profile" src="Assets/Me.jpeg">
+  <script src="indexJS.js"></script>
+  <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
