@@ -19,11 +19,11 @@
 
 //});
 
-setUp("rc", "Assets/Rock Climbing.jpg");
-setUp("br", "Assets/Ballroom.jpg");
-setUp("mr", "Assets/Mud Run.jpg");
-setUp("cos", "Assets/Cosplay.jpg");
-setUp("er", "Assets/Escape Room.jpg");
+//setUp("rc", "Assets/Rock Climbing.jpg");
+//setUp("br", "Assets/Ballroom.jpg");
+//setUp("mr", "Assets/Mud Run.jpg");
+//setUp("cos", "Assets/Cosplay.jpg");
+//setUp("er", "Assets/Escape Room.jpg");
 
 
 function setUp(id, file) {
@@ -35,5 +35,5 @@ function mouseOver(x) {
   document.getElementById("profile").src = x;
 }
 
-function mouseOut() {
-  document.getElementById("profile").src = "Assets/Me.jpg";
+//function mouseOut() {
+  //document.getElementById("profile").src = "Assets/Me.jpg";
