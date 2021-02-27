@@ -33,9 +33,9 @@ function setUp(id, file) {
 }
 
 function mouseOver(x) {
-  document.getElementById("profile").src = x;
+  document.getElementById("hobby").src = x;
 }
 
-function mouseOut() {
-  document.getElementById("profile").src = "Assets/Me.jpg";
-}
+//function mouseOut() {
+  //document.getElementById("profile").src = "Assets/Me.jpg";
+//}

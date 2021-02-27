@@ -95,6 +95,21 @@ li {
   /*end block*/
   margin-top: 20px;
   border-radius: 3px;
+  max-width:380px;
+}
+
+#hobby {
+  width:30%;
+  float:right;
+  margin-right: 5%;
+  /*block*/
+  border-style:solid;
+  border-color: var(--lining);
+  border-width: 2px;
+  background-color: var(--subBg);
+  /*end block*/
+  margin-top: 20px;
+  border-radius: 3px;
 }
 
 .main {
