@@ -23,7 +23,6 @@
 setUp("rc", "Assets/Rock Climbing.jpg");
 setUp("br", "Assets/Ballroom.jpg");
 setUp("mr", "Assets/Mud Run.jpg");
-//setUp("ski", "Assets/Skiing.jpg");
 setUp("cos", "Assets/Cosplay.jpg");
 setUp("er", "Assets/Escape Room.jpg");
 
